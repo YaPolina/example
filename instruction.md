@@ -356,10 +356,10 @@ stateDesc{
 ## States include
 
 defMorphTime:r=0.15 - default morph time
-
-defNodeName:t="" - below
-"*" - means not to change
-"" - means to remove the animation from there
+<br/> 
+defNodeName:t="" - below <br/> 
+"*" - means not to change <br/> 
+"" - means to remove the animation from there <br/> 
 the rest - the name of the controller or animation
 
 If a channel in the state doesn't have a specified action, the default action will be used.
