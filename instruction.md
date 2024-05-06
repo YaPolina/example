@@ -75,7 +75,7 @@ AnimBlendNodeLeaf {
 }
 ```
 
-**IRQ** - interrupt events, are required to notify or request certain events (such as sounds or damage) from the game code. For **single, parametric, continuous** animations, interrupts can be defined using IRQ blocks. These blocks typically indicate the name and the moment of interruption. The moment of interruption can be specified using one of the following parameters: key:t (key name or an integer as a string), relPos:r, or keyFloat:r (in seconds).```
+**IRQ** - interrupt events, are required to notify or request certain events (such as sounds or damage) from the game code. For **single, parametric, continuous** animations, interrupts can be defined using IRQ blocks. These blocks typically indicate the name and the moment of interruption. The moment of interruption can be specified using one of the following parameters: key:t (key name or an integer as a string), relPos:r, or keyFloat:r (in seconds).
 ```
 irq{
  key:t="end" /*key name, can also be a number (as a string)*/
